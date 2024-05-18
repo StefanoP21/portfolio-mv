@@ -15,14 +15,14 @@ const experienceSectionData = {
       role: 'Diseñadora Gráfica',
       company: 'ISDIN',
       image: import('@/assets/logos/isdin-logo.jpg'),
-      dates: [new Date('2023.10'), new Date('2024.07')],
+      dates: [new Date('2023.10'), null],
       description: `
         - Diseño de ilustraciones y folletería exterior.
         - Diseño de banners y publicaciones para redes sociales.
         - Creación de contenido para stories y reels.
       `,
       tagsList: {
-        title: 'Habilidades utilizadas',
+        title: 'Herramientas utilizadas',
         tags: [illustrator(), afterEffects(), photoshop(), canva()],
       },
       links: [

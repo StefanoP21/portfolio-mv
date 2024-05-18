@@ -1,22 +1,7 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { demo, github, mockups, website } from '../helpers/links';
-import {
-  chakraUi,
-  eslint,
-  firebase,
-  jest,
-  nestJs,
-  nextJs,
-  nx,
-  pnpm,
-  postgreSql,
-  prettier,
-  react,
-  sass,
-  tailwindCss,
-  typescript,
-} from '../helpers/skills';
+import { youtube } from '../helpers/links';
+import { illustrator, afterEffects, canva, photoshop } from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
@@ -31,97 +16,86 @@ const portfolioSectionData = {
   },
   projects: [
     {
-      name: 'Golden Bulls',
-      image: import('@/assets/portfolio/project-1.jpeg'),
-      dates: [new Date('2020-03'), null],
+      name: 'Branding - Origen',
+      image: import('@/assets/portfolio/origen-project.png'),
+      dates: [new Date('2022.06'), new Date('2022.08')],
       details: [
-        { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app', 'Open source'] },
-      ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/golden-bulls', url: '#' },
+        { label: 'Tamaño de equipo', value: '4' },
+        { label: 'Mi rol', value: ['Diseñadora Gráfica'] },
+        { label: 'Compañía', value: 'ISIL' },
+        { label: 'Categoría', value: ['Diseño', 'Branding'] },
       ],
       screenshots: [
-        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'First screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Second screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Third screenshot' },
+        { src: import('@/assets/portfolio/origen-project-s1.png'), alt: 'First screenshot' },
+        { src: import('@/assets/portfolio/origen-project-s2.png'), alt: 'Second screenshot' },
+        { src: import('@/assets/portfolio/origen-project-s3.png'), alt: 'Third screenshot' },
+        { src: import('@/assets/portfolio/origen-project-s4.png'), alt: 'Fourth screenshot' },
       ],
       description:
-        'In tristique vulputate augue vel egestas. Quisque ac imperdiet tortor, at lacinia ex. Duis vel ex hendrerit, commodo odio sed, aliquam enim. Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi. Nunc malesuada leo et est iaculis facilisis.',
+        'Diseño de identidad visual para la marca Origen, una empresa de productos de café orgánicos. El proyecto incluyó el diseño de logotipo, paleta de colores, tipografía y aplicaciones en papelería y packaging.',
       tagsList: {
-        title: 'Technologies',
-        tags: [nextJs(), sass(), pnpm(), eslint(), prettier()],
+        title: 'Heramientas utilizadas',
+        tags: [illustrator(), canva()],
       },
-      links: [mockups({ url: '#' }), demo({ url: '#' })],
+      links: [],
     },
     {
-      name: 'TruQuest',
+      name: 'Packaging - SkullCandy',
       image: import('@/assets/portfolio/project-2.jpeg'),
-      dates: [new Date('2019-06'), new Date('2020-02')],
+      dates: [new Date('2022.08'), new Date('2022.10')],
       details: [
-        { label: 'Team size', value: '7 people' },
-        { label: 'My role', value: ['Front-end Developer', 'Mobile Developer', 'Designer'] },
-        { label: 'Company', value: 'Facebook' },
-        { label: 'Category', value: ['Web app', 'Mobile app'] },
+        { label: 'Tamaño de equipo', value: '1' },
+        { label: 'Mi rol', value: ['Diseñadora Gráfica'] },
+        { label: 'Compañía', value: 'ISIL' },
+        { label: 'Categoría', value: ['Diseño', 'Packaging'] },
       ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://tru-quest-ck7ea3.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/tru-quest', url: '#' },
-      ],
+      screenshots: [{ src: import('@/assets/portfolio/packaging-project-s1.png'), alt: 'First screenshot' }],
       description:
-        'Ut ultricies tortor at sodales aliquam. Vivamus metus ante, fringilla nec ligula in, suscipit rhoncus mauris. Praesent hendrerit velit odio, at accumsan urna faucibus convallis. Nunc at massa eget ligula volutpat dictum a sit amet libero. Vestibulum iaculis molestie maximus. In hac habitasse platea dictumst.',
+        'Diseño de packaging para la marca SkullCandy, una empresa de audífonos y accesorios para dispositivos móviles. El proyecto incluyó el diseño de cajas y etiquetas para los productos de la marca.',
       tagsList: {
-        title: 'Technologies',
-        tags: [react(), tailwindCss(), nestJs(), postgreSql()],
+        title: 'Heramientas utilizadas',
+        tags: [illustrator(), canva()],
       },
-      links: [mockups({ url: '#' }), demo({ url: '#' })],
+      links: [],
     },
     {
-      name: 'Software Chasers',
+      name: 'Social Media - Tama',
       image: import('@/assets/portfolio/project-3.jpeg'),
-      dates: [new Date('2018-01'), new Date('2020-12')],
+      dates: [new Date('2022.08'), new Date('2022.10')],
       details: [
-        { label: 'Team size', value: '3 people' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app', 'Open source'] },
+        { label: 'Tamaño de equipo', value: '1' },
+        { label: 'Mi rol', value: ['Diseñadora Gráfica'] },
+        { label: 'Compañía', value: 'ISIL' },
+        { label: 'Categoría', value: ['Diseño', 'Social Media'] },
       ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://software-chasers-e82l8e.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/software-chasers', url: '#' },
-      ],
+      screenshots: [{ src: import('@/assets/portfolio/social-media-project-s1.png'), alt: 'First screenshot' }],
       description:
-        'Quisque id consectetur eros. In hac habitasse platea dictumst. Sed eu pulvinar orci. Mauris consequat, est in dignissim varius, neque nisl commodo mauris, id blandit risus justo eu nulla.',
+        'Diseño de contenido para redes sociales para la marca Tama, una empresa de artesania peruana. El proyecto incluyó el diseño de publicaciones para Instagram.',
       tagsList: {
-        title: 'Technologies',
-        tags: [react(), chakraUi(), typescript(), nx(), pnpm()],
+        title: 'Heramientas utilizadas',
+        tags: [photoshop(), illustrator(), canva()],
       },
-      links: [website({ url: '#' }), github({ url: '#' })],
+      links: [],
     },
     {
-      name: 'Disco Ninjas',
+      name: 'Audiosuales - Footloose',
       image: import('@/assets/portfolio/project-4.jpeg'),
-      dates: [new Date('2016-05'), new Date('2018-07')],
+      dates: [new Date('2022.08'), new Date('2022.10')],
       details: [
-        { label: 'Team size', value: '11 people' },
-        { label: 'My role', value: 'Front-end Developer' },
-        { label: 'Company', value: 'Google' },
-        { label: 'Category', value: ['Mobile app', 'Open source'] },
+        { label: 'Tamaño de equipo', value: '1' },
+        { label: 'Mi rol', value: ['Diseñadora Gráfica'] },
+        { label: 'Compañía', value: 'ISIL' },
+        { label: 'Categoría', value: ['Diseño', 'Audiovisuales'] },
       ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://disco-ninjas-g321ol.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/disco-ninjas', url: '#' },
-      ],
+      pdfDetails: [{ label: 'Youtube', value: 'FOOTLOSE Video', url: 'https://www.youtube.com/watch?v=vrJwKL_QQrA' }],
+      screenshots: [{ src: import('@/assets/portfolio/footlose-project-s1.png'), alt: 'First screenshot' }],
       description:
-        'Praesent eu neque tortor. Vestibulum ac magna nisl. Vivamus massa sem, feugiat in pharetra non, convallis egestas purus. Ut consequat ullamcorper sem, in euismod nibh posuere ut. ',
+        'Creación de contenido audiovisual para la marca Footloose, una empresa de calzado deportivo. El proyecto incluyó la creación de videos promocionales para redes sociales.',
       tagsList: {
-        title: 'Technologies',
-        tags: [typescript(), jest(), firebase()],
+        title: 'Heramientas utilizadas',
+        tags: [afterEffects()],
       },
-      links: [mockups({ url: '#' }), github({ url: '#' })],
+      links: [youtube({ url: 'https://www.youtube.com/watch?v=vrJwKL_QQrA' })],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
