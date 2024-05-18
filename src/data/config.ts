@@ -1,24 +1,24 @@
 import type { Config } from '@/types/data';
-import { enUS } from 'date-fns/locale';
+import { es } from 'date-fns/locale';
 import type { ReadonlyDeep } from 'type-fest';
 
 const config = {
   i18n: {
-    locale: enUS,
+    locale: es,
     dateFormat: 'MMMM yyyy',
     translations: {
       now: 'now',
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Mariana Varea - Diseñadora Gráfica',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
-    faviconPath: '/src/assets/my-image.jpeg',
+      'Diseñadora Gráfica con experiencia en diseño de marca, diseño editorial, diseño web y diseño de interfaz de usuario. Disponible para proyectos de diseño gráfico y diseño web.',
+    faviconPath: '/src/assets/photo-mv-sq.png',
   },
   pdf: {
     footer:
-      'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process.',
+      'Este documento fue generado automáticamente por el sitio web de Mariana Varea. La información contenida en este documento puede estar desactualizada. Por favor, visite el sitio web de Mariana Varea para obtener la información más reciente.',
   },
 } as const satisfies ReadonlyDeep<Config>;
 

@@ -1,39 +1,41 @@
 import type { MainSection } from '@/types/sections/main-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, linkedin, twitter } from '../helpers/links';
+import { linkedin, instagram } from '../helpers/links';
 
 const mainSectionData = {
   config: {
     icon: 'fa6-solid:user',
-    title: 'Profile',
+    title: 'Perfil',
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.jpeg'),
-  fullName: 'Mark Freeman',
-  role: 'Senior React Developer',
+  image: import('@/assets/photo-mv-sq.png'),
+  fullName: 'Mariana Varea Sobero',
+  role: 'Diseñadora Gráfica',
   details: [
-    { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com', url: 'mailto:mark.freeman.dev@gmail.com' },
-    { label: 'From', value: 'Warsaw, Poland' },
-    { label: 'Salary range', value: '18 000 - 25 000 PLN' },
+    { label: 'Teléfono', value: '(+51) 960 048 587', url: 'tel:+51960048587' },
+    { label: 'Correo', value: 'vareamariana2@gmail.com', url: 'mailto:vareamariana2@gmail.com' },
   ],
   pdfDetails: [
-    { label: 'Phone', value: '605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com' },
-    { label: 'LinkedIn', value: '/in/mark-freeman', url: 'https://linkedin.com' },
-    { label: 'GitHub', value: '/mark-freeman', url: 'https://github.com' },
-    { label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
+    { label: 'Teléfono', value: '(+51) 960 048 587' },
+    { label: 'Correo', value: 'vareamariana2@gmail.com' },
+    { label: 'Portafolio', value: 'https://mariana.vercel.app', url: '/', fullRow: true },
+    { label: 'LinkedIn', value: '/in/mariana-varea-b31984271/', url: 'https://linkedin.com' },
   ],
   description:
-    'Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. In sodales ac dui at *vestibulum*. In condimentum metus id dui tincidunt, in blandit mi [vehicula](/). Nulla lacinia, erat sit amet elementum vulputate, lectus mauris volutpat mi, vitae accumsan metus elit ut nunc. Vestibulum lacinia enim eget eros fermentum scelerisque. Proin augue leo, posuere ut imperdiet vitae, fermentum eu ipsum. Sed sed neque sagittis, posuere urna nec, commodo leo. Pellentesque posuere justo vitae massa volutpat maximus.',
-  tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }, { name: 'Working on side project' }],
+    'Diseñadora gráfica con experiencia en diseño de identidad visual, diseño web y diseño de packaging. Me apasiona el diseño y la ilustración, siempre busco aprender y mejorar en cada proyecto que realizo. Me considero una persona creativa, responsable y comprometida con mi trabajo.',
+  tags: [{ name: 'Disponible para trabajar' }],
   action: {
-    label: 'Download CV',
+    label: 'Descargar CV',
     url: '/cv.pdf',
-    downloadedFileName: 'CV-Mark_Freeman.pdf',
+    downloadedFileName: 'CV-Mariana_Varea.pdf',
   },
-  links: [facebook({ url: '#' }), github({ url: '#' }), linkedin({ url: '#' }), twitter({ url: '#' })],
+  links: [
+    linkedin({ url: 'https://www.linkedin.com/in/mariana-varea-b31984271/' }),
+    instagram({
+      url: 'https://www.instagram.com/mariana_varea?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+    }),
+  ],
 } as const satisfies ReadonlyDeep<MainSection>;
 
 export default mainSectionData;
