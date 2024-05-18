@@ -1,7 +1,7 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { instagram, website } from '../helpers/links';
-import { ilustrator, photoshop, afterEffects, canva } from '../helpers/skills';
+import { illustrator, photoshop, afterEffects, canva } from '../helpers/skills';
 
 const experienceSectionData = {
   config: {
@@ -23,7 +23,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Habilidades utilizadas',
-        tags: [ilustrator(), photoshop(), afterEffects(), canva()],
+        tags: [illustrator(), afterEffects(), photoshop(), canva()],
       },
       links: [
         website({ url: 'https://www.isdin.com/es-PE/' }),

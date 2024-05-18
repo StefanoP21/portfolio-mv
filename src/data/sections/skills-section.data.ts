@@ -1,7 +1,7 @@
 import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import {
-  ilustrator,
+  illustrator,
   photoshop,
   indesign,
   figma,
@@ -23,28 +23,28 @@ const skillsSectionData = {
     {
       title: 'Conozco bien',
       skills: [
-        ilustrator({
+        illustrator({
           level: 5,
           description: 'Diseño de logotipos, ilustraciones y otros proyectos de diseño gráfico.',
         }),
         photoshop({
           level: 4,
-          description: 'Retoque fotográfico y para proyectos de diseño gráfico.',
+          description: 'Retoque fotográfico y composición de imágenes.',
         }),
         indesign({
-          level: 4,
-          description: 'Maquetación de revistas, libros y otros proyectos editoriales.',
+          level: 3,
+          description: 'Maquetación de revistas, libros y folletos publicitario',
         }),
         canva({
           level: 5,
-          description: 'Proyectos rápidos y para redes sociales.',
+          description: 'Proyectos rápidos de diseño gráfico y publicaciones en redes sociales.',
         }),
         afterEffects({
           level: 4,
           description: 'Animaciones y edición de video.',
         }),
         figma({ level: 3, description: 'Diseño de interfaces y prototipado.' }),
-        behance({ level: 3, description: 'Portafolio de proyectos.' }),
+        behance({ level: 3 }),
       ],
     },
     {

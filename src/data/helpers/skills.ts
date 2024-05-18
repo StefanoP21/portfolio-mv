@@ -165,8 +165,8 @@ export const vue = createSkillFactory({
   url: 'https://vuejs.org/',
 });
 
-export const ilustrator = createSkillFactory({
-  name: 'Adobe Ilustrator',
+export const illustrator = createSkillFactory({
+  name: 'Adobe Illustrator',
   icon: 'simple-icons:adobeillustrator',
   iconColor: '#FF9A00',
 });
