@@ -1,77 +1,61 @@
 import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import {
-  apolloGraphql,
-  astro,
-  chakraUi,
-  cypress,
-  eslint,
-  firebase,
-  mongoDb,
-  nestJs,
-  pnpm,
-  postgreSql,
-  prettier,
-  react,
-  sass,
-  supabase,
-  tailwindCss,
-  typescript,
+  ilustrator,
+  photoshop,
+  indesign,
+  figma,
+  canva,
+  behance,
+  afterEffects,
+  premierePro,
+  lightroom,
 } from '../helpers/skills';
 
 const skillsSectionData = {
   config: {
-    title: 'Skills',
+    title: 'Habilidades',
     slug: 'skills',
     icon: 'fa6-solid:bars-progress',
     visible: true,
   },
   skillSets: [
     {
-      title: 'I already know',
+      title: 'Conozco bien',
       skills: [
-        react({
+        ilustrator({
           level: 5,
-          description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+          description: 'Diseño de logotipos, ilustraciones y otros proyectos de diseño gráfico.',
         }),
-        typescript({
+        photoshop({
           level: 4,
-          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+          description: 'Retoque fotográfico y para proyectos de diseño gráfico.',
         }),
-        sass({
+        indesign({
           level: 4,
-          description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
+          description: 'Maquetación de revistas, libros y otros proyectos editoriales.',
         }),
-        chakraUi({ level: 5 }),
-        tailwindCss({ level: 3 }),
-        prettier({ level: 5 }),
-        eslint({
+        canva({
+          level: 5,
+          description: 'Proyectos rápidos y para redes sociales.',
+        }),
+        afterEffects({
           level: 4,
-          description:
-            'Nulla tempor turpis at vehicula pharetra. Vestibulum tellus tortor, commodo et suscipit id, lobortis id nunc.',
+          description: 'Animaciones y edición de video.',
         }),
-        nestJs({
-          level: 3,
-          description:
-            'Praesent feugiat ultricies iaculis. In posuere vehicula odio, sed consequat velit porta viverra.',
-        }),
-        postgreSql({ level: 2 }),
-        mongoDb({ level: 1 }),
-        firebase({ level: 1 }),
-        pnpm({ level: 3 }),
+        figma({ level: 3, description: 'Diseño de interfaces y prototipado.' }),
+        behance({ level: 3, description: 'Portafolio de proyectos.' }),
       ],
     },
     {
-      title: 'I want to learn',
-      skills: [apolloGraphql(), astro(), supabase(), cypress()],
+      title: 'Quiero aprender',
+      skills: [premierePro(), lightroom()],
     },
     {
-      title: 'I speak',
+      title: 'Idiomas',
       skills: [
-        { icon: 'circle-flags:pl', name: 'Polish - native' },
+        { icon: 'circle-flags:es-variant', name: 'Español - Nativo' },
         { icon: 'circle-flags:us', name: 'English - C1' },
-        { icon: 'circle-flags:es-variant', name: 'Spanish - B1' },
       ],
     },
   ],

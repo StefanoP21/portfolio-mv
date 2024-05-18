@@ -164,3 +164,56 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+export const ilustrator = createSkillFactory({
+  name: 'Adobe Ilustrator',
+  icon: 'simple-icons:adobeillustrator',
+  iconColor: '#FF9A00',
+});
+
+export const photoshop = createSkillFactory({
+  name: 'Adobe Photoshop',
+  icon: 'simple-icons:adobephotoshop',
+  iconColor: '#31A8FF',
+});
+
+export const indesign = createSkillFactory({
+  name: 'InDesign',
+  icon: 'simple-icons:adobeindesign',
+  iconColor: '#FF3366',
+});
+export const afterEffects = createSkillFactory({
+  name: 'After Effects',
+  icon: 'simple-icons:adobeaftereffects',
+  iconColor: '#D291FF',
+});
+
+export const premierePro = createSkillFactory({
+  name: 'Premiere Pro',
+  icon: 'simple-icons:adobepremierepro',
+  iconColor: '#9999FF',
+});
+
+export const lightroom = createSkillFactory({
+  name: 'Lightroom',
+  icon: 'simple-icons:adobelightroom',
+  iconColor: '#31A8FF',
+});
+
+export const canva = createSkillFactory({
+  name: 'Canva',
+  icon: 'simple-icons:canva',
+  iconColor: '#00C4CC',
+});
+
+export const figma = createSkillFactory({
+  name: 'Figma',
+  icon: 'simple-icons:figma',
+  iconColor: '#F24E1E',
+});
+
+export const behance = createSkillFactory({
+  name: 'Behance',
+  icon: 'simple-icons:behance',
+  iconColor: '#1769FF',
+});
