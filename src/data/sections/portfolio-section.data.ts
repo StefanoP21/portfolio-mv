@@ -20,7 +20,7 @@ import {
 
 const portfolioSectionData = {
   config: {
-    title: 'Projects',
+    title: 'Projectos',
     slug: 'projects',
     icon: 'fa6-solid:rocket',
     visible: true,

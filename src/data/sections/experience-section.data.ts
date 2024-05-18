@@ -15,7 +15,7 @@ const experienceSectionData = {
       role: 'Diseñadora Gráfica',
       company: 'ISDIN',
       image: import('@/assets/logos/isdin-logo.jpg'),
-      dates: [new Date('2023-11'), new Date()],
+      dates: [new Date('2023.10'), new Date('2024.07')],
       description: `
         - Diseño de ilustraciones y folletería exterior.
         - Retoque fotográfico y creación de contenido para redes sociales.
