@@ -19,7 +19,12 @@ const mainSectionData = {
   pdfDetails: [
     { label: 'Teléfono', value: '(+51) 960 048 587' },
     { label: 'Correo', value: 'vareamariana2@gmail.com' },
-    { label: 'Portafolio', value: 'https://mariana.vercel.app', url: 'https://mariana.vercel.app/', fullRow: true },
+    {
+      label: 'Portafolio',
+      value: 'https://mariana-varea.vercel.app',
+      url: 'https://mariana-varea.vercel.app/',
+      fullRow: true,
+    },
     {
       label: 'LinkedIn',
       value: 'https://linkedin.com/mariana',
