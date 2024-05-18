@@ -3,11 +3,11 @@ import type { PdfConfig } from './config/pdf-config.types';
 import type { MetaConfig } from './config/meta-config.types';
 import type { EducationSection } from './sections/education-section.types';
 import type { ExperienceSection } from './sections/experience-section.types';
-import type { FavoritesSection } from './sections/favorites-section.types';
+// import type { FavoritesSection } from './sections/favorites-section.types';
 import type { MainSection } from './sections/main-section.types';
-import type { PortfolioSection } from './sections/portfolio-section.types';
+// import type { PortfolioSection } from './sections/portfolio-section.types';
 import type { SkillsSection } from './sections/skills-section.types';
-import type { TestimonialsSection } from './sections/testimonials-section.types';
+// import type { TestimonialsSection } from './sections/testimonials-section.types';
 
 export type Config = {
   /**
@@ -45,7 +45,7 @@ export type Sections = {
   /**
    * Your projects and initiatives.
    */
-  portfolio: PortfolioSection;
+  // portfolio: PortfolioSection;
 
   /**
    * Your education degrees and certifications.

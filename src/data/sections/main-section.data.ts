@@ -19,11 +19,15 @@ const mainSectionData = {
   pdfDetails: [
     { label: 'Teléfono', value: '(+51) 960 048 587' },
     { label: 'Correo', value: 'vareamariana2@gmail.com' },
-    { label: 'Portafolio', value: 'https://mariana.vercel.app', url: '/', fullRow: true },
-    { label: 'LinkedIn', value: '/in/mariana-varea-b31984271/', url: 'https://linkedin.com' },
+    { label: 'Portafolio', value: 'https://mariana.vercel.app', url: 'https://mariana.vercel.app/', fullRow: true },
+    {
+      label: 'LinkedIn',
+      value: 'https://linkedin.com/mariana',
+      url: 'https://linkedin.com/in/mariana-varea-b31984271/',
+    },
   ],
   description:
-    'Diseñadora gráfica con experiencia en diseño de identidad visual, diseño web y diseño de packaging. Me apasiona el diseño y la ilustración, siempre busco aprender y mejorar en cada proyecto que realizo. Me considero una persona creativa, responsable y comprometida con mi trabajo.',
+    'Diseñadora gráfica con experiencia en diseño de identidad visual y diseño de packaging. Me apasiona el diseño y la ilustración, siempre busco aprender y mejorar en cada proyecto. Me considero una persona creativa y comprometida con mi trabajo.',
   tags: [{ name: 'Disponible para trabajar' }],
   action: {
     label: 'Descargar CV',
