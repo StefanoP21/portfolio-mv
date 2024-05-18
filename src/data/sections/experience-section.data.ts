@@ -17,9 +17,10 @@ const experienceSectionData = {
       image: import('@/assets/logos/isdin-logo.jpg'),
       dates: [new Date('2023.10'), null],
       description: `
-        - Diseño de ilustraciones y folletería exterior.
-        - Diseño de banners y publicaciones para redes sociales.
-        - Creación de contenido para stories y reels.
+        - Encargada del diseño de folletería y supervición de impresión.
+        - Edición de vídeos, post, reels y stories en Social Media.
+        - Diseño de vitrinas y paneles para puntos de venta.
+        - Diseño de banners y visuales para la página web.
       `,
       tagsList: {
         title: 'Herramientas utilizadas',

@@ -30,7 +30,7 @@ const educationSectionData = {
       title: 'Programa Avanzado de Inglés',
       institution: 'Centro de Idiomas Británico',
       image: import('@/assets/logos/britanico-logo.png'),
-      dates: [new Date('2021.04'), new Date('2022.10')],
+      dates: [new Date('2021.02'), new Date('2022.08')],
       description: 'Certificado de competencia lingüística en inglés nivel C1.',
       links: [website({ url: 'https://www.britanico.edu.pe/' })],
     },
