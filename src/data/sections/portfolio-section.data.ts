@@ -78,7 +78,7 @@ const portfolioSectionData = {
       links: [],
     },
     {
-      name: 'Audiosuales - Footloose',
+      name: 'Audiovisuales - Footloose',
       image: import('@/assets/portfolio/project-4.jpeg'),
       dates: [new Date('2022.06'), new Date('2022.08')],
       details: [
