@@ -27,7 +27,9 @@ const experienceSectionData = {
         tags: [illustrator(), afterEffects(), photoshop(), canva()],
       },
       links: [
-        website({ url: 'https://www.behance.net/gallery/212098991/Portafolio-ISDIN-2024-Disenadora-Mariana-Varea/modules/1205998797' }),
+        website({
+          url: 'https://www.behance.net/gallery/212098991/Portafolio-ISDIN-2024-Disenadora-Mariana-Varea/modules/1205998797',
+        }),
         instagram({ url: 'https://www.instagram.com/isdinperu/' }),
       ],
     },
