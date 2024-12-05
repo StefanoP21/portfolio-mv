@@ -11,3 +11,5 @@ stats.html
 # Favicon generation
 public/favicons
 *.generated.astro
+
+.idea/
