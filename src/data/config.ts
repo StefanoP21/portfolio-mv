@@ -14,7 +14,7 @@ const config = {
     title: 'Mariana Varea - Diseñadora Gráfica',
     description:
       'Diseñadora Gráfica con experiencia en diseño de marca, diseño editorial, diseño web y diseño de interfaz de usuario. Disponible para proyectos de diseño gráfico y diseño web.',
-    faviconPath: '/src/assets/photo-mv-sq.png',
+    faviconPath: '/src/assets/icon.png',
   },
   pdf: {
     footer:

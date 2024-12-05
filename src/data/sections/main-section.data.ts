@@ -9,7 +9,7 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/photo-mv-sq.png'),
+  image: import('@/assets/icon.png'),
   fullName: 'Mariana Varea Sobero',
   role: 'Diseñadora Gráfica',
   details: [
