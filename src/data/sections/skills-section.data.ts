@@ -55,7 +55,7 @@ const skillsSectionData = {
       title: 'Idiomas',
       skills: [
         { icon: 'circle-flags:es-variant', name: 'Español - Nativo' },
-        { icon: 'circle-flags:us', name: 'English - C1' },
+        { icon: 'circle-flags:us', name: 'English - B1' },
       ],
     },
   ],
